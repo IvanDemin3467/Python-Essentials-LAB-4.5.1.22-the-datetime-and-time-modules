@@ -14,25 +14,25 @@ from datetime import datetime
 
 dt = datetime(2020,11,4,14,53)
 
-print("2020/11/04 14:53:00")
+#print("2020/11/04 14:53:00")
 print(dt.strftime("%Y/%m/%d %H:%M:%S"))
 
-print("20/November/04 14:53:00 PM")
+#print("20/November/04 14:53:00 PM")
 print(dt.strftime("%y/%B/%d %H:%M:%S %p"))
 
-print("Wed, 2020 Nov 04")
+#print("Wed, 2020 Nov 04")
 print(dt.strftime("%a, %Y %b %d"))
 
-print("Wednesday, 2020 November 04")
+#print("Wednesday, 2020 November 04")
 print(dt.strftime("%A, %Y %B %d"))
 
-print("Weekday: 3")
+#print("Weekday: 3")
 print(dt.strftime("Weekday: %w"))
 
-print("Day of the year: 309")
+#print("Day of the year: 309")
 print(dt.strftime("Day of the year: %j"))
 
-print("Week number of the year: 44")
+#print("Week number of the year: 44")
 print(dt.strftime("Week number of the year: %U"))
 
 
